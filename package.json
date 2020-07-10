@@ -6,6 +6,12 @@
 		"create-nodejs-cli": "index.js",
 		"ncli": "index.js"
 	},
+	"repository": "ahmadawais/create-node-cli",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais/"
+	},
 	"dependencies": {
 		"await-to-js": "^2.1.1",
 		"chalk": "^4.1.0",
