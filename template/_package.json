@@ -1,0 +1,18 @@
+{
+	"name": "{{name}}",
+	"description": "{{description}}",
+	"version": "{{version}}",
+	"license": "{{license}}",
+	"bin": {
+		"{{name}}": "index.js",
+		"{{command}}": "index.js"
+	},
+	"author": {
+		"name": "{{authorName}}",
+		"email": "{{authorEmail}}",
+		"url": "{{authorUrl}}"
+	},
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	}
+}
