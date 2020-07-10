@@ -1,7 +1,7 @@
 {
 	"name": "create-node-cli",
 	"description": "CLI to create Node.js CLIs.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"bin": {
 		"create-nodejs-cli": "index.js",
 		"ncli": "index.js"
