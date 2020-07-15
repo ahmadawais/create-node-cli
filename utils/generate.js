@@ -30,13 +30,13 @@ module.exports = async () => {
 		);
 		process.chdir(outDirPath);
 		const pkgs = [
-			`meow`,
-			`chalk`,
-			`cli-alerts`,
-			`cli-welcome`,
-			`cli-meow-help`,
-			`cli-handle-error`,
-			`cli-handle-unhandled`
+			`meow@latest`,
+			`chalk@latest`,
+			`cli-alerts@latest`,
+			`cli-welcome@latest`,
+			`cli-meow-help@latest`,
+			`cli-handle-error@latest`,
+			`cli-handle-unhandled@latest`
 		];
 
 		await execa(`npm`, [`install`, ...pkgs]);
