@@ -22,9 +22,7 @@ const flags = {
 };
 
 const commands = {
-	help: {
-		description: `Print help info`
-	}
+	help: { desc: `Print help info` }
 };
 
 const helpText = meowHelp({

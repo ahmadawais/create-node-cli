@@ -5,8 +5,8 @@ const unhandled = require('cli-handle-unhandled');
 module.exports = ({ clear = true }) => {
 	unhandled();
 	welcome({
-		title: 'create-nodejs-cli',
-		tagLine: 'by Awais.dev',
+		title: `create-node-cli`,
+		tagLine: `by Awais.dev`,
 		description: pkg.description,
 		version: pkg.version,
 		bgColor: '#6cc24a',

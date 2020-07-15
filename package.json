@@ -3,7 +3,7 @@
 	"description": "CLI to create Node.js CLIs.",
 	"version": "0.0.3",
 	"bin": {
-		"create-nodejs-cli": "index.js",
+		"create-node-cli": "index.js",
 		"ncli": "index.js"
 	},
 	"repository": "ahmadawais/create-node-cli",
@@ -12,6 +12,19 @@
 		"email": "me@AhmadAwais.com",
 		"url": "https://twitter.com/MrAhmadAwais/"
 	},
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"keywords": [
+		"create-node-cli",
+		"Create Node.js CLI",
+		"Build Node CLI",
+		"node cli",
+		"nodejs",
+		"Awais",
+		"Ahmad Awais"
+	],
 	"dependencies": {
 		"await-to-js": "^2.1.1",
 		"chalk": "^4.1.0",

@@ -1,4 +1,4 @@
-# create-nodejs-cli
+# create-node-cli
 
 - `template`
 - Dynamic template `{{var}}`
