@@ -32,11 +32,27 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [1.0.1](https://github.com/ahmadawais/create-node-cli/compare/1.0.0...1.0.1)
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Lingo [`a945cd9`](https://github.com/ahmadawais/create-node-cli/commit/a945cd90792f4b8bdbe3b87aa8208fe8bde4d93b) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.0.0](https://github.com/ahmadawais/create-node-cli/compare/0.3.0...1.0.0)
 
 ![🐛 FIX:](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
 
 > 🐛 Broken link [`0a7e9c9`](https://github.com/ahmadawais/create-node-cli/commit/0a7e9c94b5a908f99642c19c8285a41cb075a1ea) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`6497014`](https://github.com/ahmadawais/create-node-cli/commit/6497014b2718960cd86bce6e7c77190461b6a786) <br>
 
 <br>
 
