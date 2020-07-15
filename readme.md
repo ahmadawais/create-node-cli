@@ -21,7 +21,7 @@
 
 <br>
 
-[![📟](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/install.png)](./../../)
+[![📟](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/install.png)](https://github.com/AhmadAwais/create-node-cli)
 
 ## Install
 
@@ -34,7 +34,7 @@ npx create-node-cli
 
 <br>
 
-[![⚙️](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/usage.png)](./../../)
+[![⚙️](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/usage.png)](https://github.com/AhmadAwais/create-node-cli)
 
 ## Usage
 
@@ -100,7 +100,7 @@ help  Print help info
 
 <br>
 
-[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/license.png)](./../../)
+[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/license.png)](https://github.com/AhmadAwais/create-node-cli)
 
 ## License & Conduct
 
@@ -110,7 +110,7 @@ help  Print help info
 
 <br>
 
-[![🙌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/connect.png)](./../../)
+[![🙌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/connect.png)](https://github.com/AhmadAwais/create-node-cli)
 
 ## Connect
 
@@ -124,7 +124,7 @@ help  Print help info
 
 <br>
 
-[![👌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/sponsor.png)](./../../)
+[![👌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/sponsor.png)](https://github.com/AhmadAwais/create-node-cli)
 
 ## Sponsor
 
