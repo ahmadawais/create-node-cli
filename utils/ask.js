@@ -1,3 +1,4 @@
+const os = require('os');
 const fs = require('fs');
 const path = require('path');
 const { Input } = require('enquirer');
@@ -17,7 +18,10 @@ module.exports = async ({ name, message, hint, initial }) => {
 		history = {
 			autosave: true,
 			store: new Store({
-				path: path.join(__dirname, `/../.history/${name}.json`)
+				path: path.join(
+					os.homedir(),
+					`.history/create-node-cli/${name}.json`
+				)
 			})
 		};
 	}
