@@ -32,6 +32,27 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [0.2.0](https://github.com/ahmadawais/create-node-cli/compare/0.1.0...0.2.0)
+
+![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+> 📦 Logo name [`096e935`](https://github.com/ahmadawais/create-node-cli/commit/096e935c759f2b94010d228c46b1757560815df9) <br>
+> 📦 logo name [`f498ee8`](https://github.com/ahmadawais/create-node-cli/commit/f498ee830dd2eaf660c9a53b8d5966d688a285d9) <br>
+> 📦 Logo [`19d8efb`](https://github.com/ahmadawais/create-node-cli/commit/19d8efbfaef266644caf73e5c60355f5e9b1294f) <br>
+> 📦 Link [`c8962cc`](https://github.com/ahmadawais/create-node-cli/commit/c8962ccccad2f9a80b74d598ab95190fe34267be) <br>
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 Links [`32bb6d2`](https://github.com/ahmadawais/create-node-cli/commit/32bb6d2a5267c9439ff89bdd2476f1c2f99d1bc2) <br>
+> 👌 Rename log [`e7cbfa5`](https://github.com/ahmadawais/create-node-cli/commit/e7cbfa591ebd59029b37a4635a6b9459176193d6) <br>
+> 👌 Rename log [`3572842`](https://github.com/ahmadawais/create-node-cli/commit/35728427cfd289908cf87e97bc846dd11ede3ee0) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [0.1.0](https://github.com/ahmadawais/create-node-cli/compare/0.0.3...0.1.0)
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
@@ -40,6 +61,7 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 ![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
 
+> 📖 Changelog [`29929eb`](https://github.com/ahmadawais/create-node-cli/commit/29929ebf1400f0bd4f9ae1e268fc575ec1ac3d1b) <br>
 > 📖 Lingo [`89a3751`](https://github.com/ahmadawais/create-node-cli/commit/89a37513961b587f3b592150b2ca0294eccf1c88) <br>
 
 <br>
