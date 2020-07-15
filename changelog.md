@@ -32,10 +32,31 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [1.1.0](https://github.com/ahmadawais/create-node-cli/compare/1.0.1...1.1.0)
+
+![BREAKING](https://img.shields.io/badge/-BREAKING%20CHANGES-gray.svg?colorB=F91800)
+
+> ‼️ Template Dir included [`1985762`](https://github.com/ahmadawais/create-node-cli/commit/19857624735e161c3843d8d46d6ab696c0516a41) <br>
+
+![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+> 📦 Keywords [`b54cdb2`](https://github.com/ahmadawais/create-node-cli/commit/b54cdb280567062c3e9b1ea9164fe0214ccd503a) <br>
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 Links [`3d5fdb0`](https://github.com/ahmadawais/create-node-cli/commit/3d5fdb0b8e8aceba0efe0d73d88441dc5aab5033) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.0.1](https://github.com/ahmadawais/create-node-cli/compare/1.0.0...1.0.1)
 
 ![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
 
+> 📖 Changelog [`588b509`](https://github.com/ahmadawais/create-node-cli/commit/588b50978bc68d68e0c57865dbf92bea83ee3cbe) <br>
 > 📖 Lingo [`a945cd9`](https://github.com/ahmadawais/create-node-cli/commit/a945cd90792f4b8bdbe3b87aa8208fe8bde4d93b) <br>
 
 <br>
