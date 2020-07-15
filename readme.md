@@ -1,6 +1,6 @@
 <h4 align="center">
     <a href="https://nodecli.com/?utm_source=FOSS&utm_medium=FOSS&utm_campaign=create-node-cli">
-        <img src="https://raw.githubusercontent.com/ahmadawais/create-node-cli/master/.github/create-node-cli.jpg" alt="create-node-cli" />
+        <img src="https://raw.githubusercontent.com/ahmadawais/create-node-cli/master/.github/create-node-cli-logo.jpg" alt="create-node-cli" />
     </a>
     <br>
     <br>
