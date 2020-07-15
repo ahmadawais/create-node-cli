@@ -32,6 +32,18 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [1.2.0](https://github.com/ahmadawais/create-node-cli/compare/1.1.0...1.2.0)
+
+![🐛 FIX:](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+
+> 🐛 Typo [`5eec27d`](https://github.com/ahmadawais/create-node-cli/commit/5eec27df9050010e17db6381ce0ebf5d28d2d7b8) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.1.0](https://github.com/ahmadawais/create-node-cli/compare/1.0.1...1.1.0)
 
 ![BREAKING](https://img.shields.io/badge/-BREAKING%20CHANGES-gray.svg?colorB=F91800)
@@ -45,6 +57,10 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 ![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
 
 > 👌 Links [`3d5fdb0`](https://github.com/ahmadawais/create-node-cli/commit/3d5fdb0b8e8aceba0efe0d73d88441dc5aab5033) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`4223938`](https://github.com/ahmadawais/create-node-cli/commit/4223938844548cb078d763116808715513742788) <br>
 
 <br>
 
