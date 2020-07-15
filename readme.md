@@ -21,7 +21,7 @@
 
 <br>
 
-[![📟](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/install.png)](https://github.com/AhmadAwais/create-node-cli)
+[![📟](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/install.png)][repo]
 
 ## Install
 
@@ -35,7 +35,7 @@ npm install -g create-node-cli
 
 <br>
 
-[![⚙️](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/usage.png)](https://github.com/AhmadAwais/create-node-cli)
+[![⚙️](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/usage.png)][repo]
 
 ## Usage
 
@@ -101,7 +101,7 @@ help  Print help info
 
 <br>
 
-[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/license.png)](https://github.com/AhmadAwais/create-node-cli)
+[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/license.png)][repo]
 
 ## License & Conduct
 
@@ -111,7 +111,7 @@ help  Print help info
 
 <br>
 
-[![🙌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/connect.png)](https://github.com/AhmadAwais/create-node-cli)
+[![🙌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/connect.png)][repo]
 
 ## Connect
 
@@ -125,7 +125,7 @@ help  Print help info
 
 <br>
 
-[![👌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/sponsor.png)](https://github.com/AhmadAwais/create-node-cli)
+[![👌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/sponsor.png)][repo]
 
 ## Sponsor
 
@@ -149,3 +149,4 @@ without wasting a 1,000 hours</a> →</p>
 [![Ahmad on Twitter](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Follow%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/)
 
 [n]: https://nodecli.com/?utm_source=FOSS&utm_medium=FOSS&utm_campaign=create-node-cli
+[repo]: https://github.com/AhmadAwais/create-node-cli
