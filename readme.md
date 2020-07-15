@@ -1,13 +1,23 @@
-[![Part of NodeCLI.com course](https://raw.githubusercontent.com/ahmadawais/create-node-cli/master/.github/create-node-cli.jpg)][n]
+<h4 align="center">
+    <a href="https://nodecli.com/?utm_source=FOSS&utm_medium=FOSS&utm_campaign=create-node-cli">
+        <img src="https://raw.githubusercontent.com/ahmadawais/create-node-cli/master/.github/create-node-cli.jpg" alt="create-node-cli" />
+    </a>
+    <br>
+    <br>
+
+📟 CLI to create new Node.js CLI applications.
+
+[![DOWNLOADS](https://img.shields.io/npm/dt/create-node-cli?label=DOWNLOADS%20%20%E2%9D%AF&colorA=6cc24a&colorB=6cc24a&style=flat)](https://www.npmjs.com/package/create-node-cli) [![Learn Node.js CLI Automation](https://img.shields.io/badge/-NodeCLI.com%20%E2%86%92-gray.svg?colorB=6cc24a&style=flat)](https://nodecli.com/?utm_source=GitHubFOSS) [![Follow @MrAhmadAwais on Twitter](https://img.shields.io/badge/FOLLOW%20@MRAHMADAWAIS%20%E2%86%92-gray.svg?colorA=6cc24a&colorB=6cc24a&style=flat)](https://twitter.com/mrahmadawais/)
+
+</h4>
+
+<br>
 
 # create-node-cli
 
-[![Learn to build Node.js CLI](https://img.shields.io/badge/-NodeCLI.com%20%E2%86%92-gray.svg?colorB=488640&style=flat)][n] [![DOWNLOADS](https://img.shields.io/npm/dt/create-node-cli?label=DOWNLOADS%20%20❯&colorA=6A788D&colorB=6A788D&style=flat)](https://www.npmjs.com/package/create-node-cli)
-[![Follow @MrAhmadAwais on Twitter](https://img.shields.io/badge/FOLLOW%20@MRAHMADAWAIS%20%E2%86%92-gray.svg?colorA=6A788D&colorB=6A788D&style=flat)](https://twitter.com/mrahmadawais/)
-
-> 📟 CLI to create new Node.js CLI applications.
-
-- 📟 Generate a new Node.js CLI application in a minute
+- 📦 Create a Node.js CLI in a minute
+- 🤯 Automatic argument parsing, help text, and welcome message
+- 🗃️ History to maintain the last input data like the Author `name`, `email`, and `URL`
 
 <br>
 
