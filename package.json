@@ -14,7 +14,8 @@
 	},
 	"files": [
 		"index.js",
-		"utils"
+		"utils",
+		"template"
 	],
 	"keywords": [
 		"create-node-cli",
