@@ -26,10 +26,11 @@
 ## Install
 
 ```sh
-npm install -g create-node-cli
-
-# OR.
+# Recommended.
 npx create-node-cli
+
+# OR an alternative global install.
+npm install -g create-node-cli
 ```
 
 <br>
