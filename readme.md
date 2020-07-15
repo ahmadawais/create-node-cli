@@ -141,11 +141,10 @@ Or you can back me by checking out my super fun video course. After building hun
 → I'm sharing it all in this online video course. <a href="https://nodecli.com/?utm_source=FOSS&utm_medium=FOSS&utm_campaign=create-node-cli" target="_blank">Node CLI Automation
 without wasting a 1,000 hours</a> →</p>
 
-[![NodeCLI.com](https://raw.githubusercontent.com/ahmadawais/stuff/master/nodecli/featured.jpg)[n]
-
-<br>
+[![NodeCLI.com](https://raw.githubusercontent.com/ahmadawais/stuff/master/nodecli/featured.jpg)][n]
 
 [![Node CLI](https://img.shields.io/badge/-NodeCLI.com%20%E2%86%92-gray.svg?colorB=488640&style=flat)](https://nodecli.com/?utm_source=FOSS&utm_medium=FOSS&utm_campaign=create-node-cli)
+
 [![Ahmad on Twitter](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Follow%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/)
 
 [n]: https://nodecli.com/?utm_source=FOSS&utm_medium=FOSS&utm_campaign=create-node-cli
