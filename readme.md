@@ -135,9 +135,7 @@ Me ([Ahmad Awais](https://twitter.com/mrahmadawais/)) and my incredible wife ([M
 
 <br>
 
-Or you can back me by checking out my super fun video course. After building hundreds of developer automation tools used by millions of developers, I am sharing exactly how you can do it yourself with minimum effective effort. Learn to build Node.js & JavaScript based CLI (Command Line Interface) apps. Automate the grunt work, do more in less time, impress your manager, and help the community.
-→ I'm sharing it all in this online video course. <a href="https://nodecli.com/?utm_source=FOSS&utm_medium=FOSS&utm_campaign=create-node-cli" target="_blank">Node CLI Automation
-without wasting a 1,000 hours</a> →</p>
+Or you can back me by checking out my super fun video course. After building hundreds of developer automation tools used by millions of developers, I am teaching exactly how you can do it yourself with minimum effective effort. Learn to build Node.js & JavaScript based CLI (Command Line Interface) apps & npm packages. Automate the grunt work, do more in less time, impress your manager, make more salary, and help the community. I'm sharing it all in this step-by-step 100-videos course. [Node CLI Automation without wasting a thousand hours][n] →
 
 [![NodeCLI.com](https://raw.githubusercontent.com/ahmadawais/stuff/master/nodecli/featured.jpg)][n]
 
