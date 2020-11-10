@@ -5,7 +5,7 @@
     <br>
     <br>
 
-📟 CLI to create new Node.js CLI applications.
+📟 CLI to create new Node.js CLI applications. [Learn to build Node.js CLI apps][n].
 
 [![DOWNLOADS](https://img.shields.io/npm/dt/create-node-cli?label=DOWNLOADS%20%20%E2%9D%AF&colorA=6cc24a&colorB=6cc24a&style=flat)](https://www.npmjs.com/package/create-node-cli) [![Learn Node.js CLI Automation](https://img.shields.io/badge/-NodeCLI.com%20%E2%86%92-gray.svg?colorB=6cc24a&style=flat)](https://nodecli.com/?utm_source=GitHubFOSS) [![Follow @MrAhmadAwais on Twitter](https://img.shields.io/badge/FOLLOW%20@MRAHMADAWAIS%20%E2%86%92-gray.svg?colorA=6cc24a&colorB=6cc24a&style=flat)](https://twitter.com/mrahmadawais/)
 
@@ -18,6 +18,7 @@
 - 📦 Create a Node.js CLI in a minute
 - 🤯 Automatic argument parsing, help text, and welcome message
 - 🗃️ History to maintain the last input data like the Author `name`, `email`, and `URL`
+- 👨‍🏫 Awais taught and created this CLI project in his [NodeCLI.com][n] automation course
 
 <br>
 
@@ -134,6 +135,8 @@ Me ([Ahmad Awais](https://twitter.com/mrahmadawais/)) and my incredible wife ([M
 [![Support Open-Source Work](https://raw.githubusercontent.com/ahmadawais/stuff/master/sponsor/sponsor.jpg)](https://github.com/AhmadAwais/sponsor)
 
 <br>
+
+### [How to build a Node CLI?][n]
 
 Or you can back me by checking out my super fun video course. After building hundreds of developer automation tools used by millions of developers, I am teaching exactly how you can do it yourself with minimum effective effort. Learn to build Node.js & JavaScript based CLI (Command Line Interface) apps & npm packages. Automate the grunt work, do more in less time, impress your manager, make more salary, and help the community. I'm sharing it all in this step-by-step 100-videos course. [Node CLI Automation without wasting a thousand hours][n] →
 
