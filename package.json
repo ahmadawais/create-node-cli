@@ -27,23 +27,23 @@
 		"Ahmad Awais"
 	],
 	"dependencies": {
-		"await-to-js": "^2.1.1",
-		"chalk": "^4.1.0",
-		"cli-alerts": "^1.2.1",
+		"await-to-js": "^3.0.0",
+		"chalk": "^4.1.1",
+		"cli-alerts": "^1.2.2",
 		"cli-handle-error": "^4.4.0",
-		"cli-handle-unhandled": "^1.1.0",
-		"cli-meow-help": "^2.0.1",
-		"cli-should-cancel": "^1.0.2",
-		"cli-welcome": "^2.2.1",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-should-cancel": "^1.0.3",
+		"cli-welcome": "^2.2.2",
 		"copy-template-dir": "^1.4.0",
 		"data-store": "^4.0.3",
 		"enquirer": "^2.3.6",
-		"execa": "^4.0.3",
-		"meow": "^7.0.1",
-		"ora": "^4.0.4"
+		"execa": "^5.0.0",
+		"meow": "9.0.0",
+		"ora": "^5.4.0"
 	},
 	"devDependencies": {
-		"prettier": "^2.0.5"
+		"prettier": "^2.3.0"
 	},
 	"scripts": {
 		"format": "prettier --write \"./**/*.{js,json}\""
