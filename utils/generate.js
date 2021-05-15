@@ -30,7 +30,7 @@ module.exports = async () => {
 		);
 		process.chdir(outDirPath);
 		const pkgs = [
-			`meow@latest`,
+			`meow@9.0.0`,
 			`chalk@latest`,
 			`cli-alerts@latest`,
 			`cli-welcome@latest`,
