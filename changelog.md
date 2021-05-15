@@ -32,11 +32,41 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [1.6.0](https://github.com/ahmadawais/create-node-cli/compare/1.5.0...1.6.0)
+
+![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+> 📦 Support [`77e5b80`](https://github.com/ahmadawais/create-node-cli/commit/77e5b80c1245f678c8dd959c5dd88a8e54dc07e0) <br>
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 pkgs [`44c5e7c`](https://github.com/ahmadawais/create-node-cli/commit/44c5e7cb7da686112134b167435d6bf26ecea4a5) <br>
+> 👌 meow without ESM for now [`a5c6995`](https://github.com/ahmadawais/create-node-cli/commit/a5c69951a053e4ec83f8eaba92adeac2d67a680f) <br>
+
+![🐛 FIX:](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+
+> 🐛 Link [`6fd2ae2`](https://github.com/ahmadawais/create-node-cli/commit/6fd2ae2f2396c25e7e8859f2df0dc32cd3c5d318) <br>
+> 🐛 Strict camelCase flags [`577962d`](https://github.com/ahmadawais/create-node-cli/commit/577962d951f7b7c72a2567bd8a7caa871fe01a15) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Lingo [`8670e87`](https://github.com/ahmadawais/create-node-cli/commit/8670e8780569fc8b31cb567e8ea0e9937cc28300) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.5.0](https://github.com/ahmadawais/create-node-cli/compare/1.4.0...1.5.0)
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 > 📦 Deps update [`b20912f`](https://github.com/ahmadawais/create-node-cli/commit/b20912ffa30d54a23e0ea3dcbd6800a3bfc7c382) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`1cc51db`](https://github.com/ahmadawais/create-node-cli/commit/1cc51db0d1a7c9f9d9639c4b373ae6681f5c9c1e) <br>
 
 <br>
 
