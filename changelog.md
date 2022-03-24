@@ -32,6 +32,18 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [1.6.1](https://github.com/ahmadawais/create-node-cli/compare/1.6.0...1.6.1)
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 Chalk version before ESM [`40d8018`](https://github.com/ahmadawais/create-node-cli/commit/40d801808134ed99470ef222ea1bf76cfc0d537a) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.6.0](https://github.com/ahmadawais/create-node-cli/compare/1.5.0...1.6.0)
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
@@ -50,6 +62,7 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 ![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
 
+> 📖 Changelog [`6682184`](https://github.com/ahmadawais/create-node-cli/commit/6682184c87b0cec5b939abd0731b2bf38758af9f) <br>
 > 📖 Lingo [`8670e87`](https://github.com/ahmadawais/create-node-cli/commit/8670e8780569fc8b31cb567e8ea0e9937cc28300) <br>
 
 <br>
