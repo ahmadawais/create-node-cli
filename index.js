@@ -1,9 +1,9 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S node --no-warnings
 
-const init = require('./utils/init');
-const cli = require('./utils/cli');
-const log = require('./utils/log');
-const generate = require('./utils/generate');
+import init from './utils/init.js';
+import cli from './utils/cli.js';
+import generate from './utils/generate.js';
+import log from './utils/log.js';
 
 const input = cli.input;
 const flags = cli.flags;

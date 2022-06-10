@@ -1,6 +1,6 @@
-const ask = require('./ask');
+import ask from './ask.js';
 
-module.exports = async () => {
+export default async () => {
 	const name = await ask({
 		name: `name`,
 		message: `CLI name?`,
