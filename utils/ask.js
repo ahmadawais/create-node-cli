@@ -38,7 +38,7 @@ module.exports = async ({ name, message, hint, initial }) => {
 					if (fs.existsSync(value)) {
 						return `Directory already exists: ./${value}`;
 					} else {
-						return true;
+						return !value ? `Please add a value.` : true;
 					}
 				}
 				return !value ? `Please add a value.` : true;
