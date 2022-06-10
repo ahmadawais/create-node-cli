@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S node --no-warnings
 
 /**
  * {{name}}
@@ -7,9 +7,9 @@
  * @author {{authorName}} <{{authorUrl}}>
  */
 
-const init = require('./utils/init');
-const cli = require('./utils/cli');
-const log = require('./utils/log');
+import init from './utils/init.js';
+import cli from './utils/cli.js';
+import log from './utils/log.js';
 
 const input = cli.input;
 const flags = cli.flags;
