@@ -1,5 +1,5 @@
-const meow = require('meow');
-const meowHelp = require('cli-meow-help');
+import meow from 'meow';
+import meowHelp from 'cli-meow-help';
 
 const flags = {
 	clear: {
@@ -37,10 +37,11 @@ const helpText = meowHelp({
 });
 
 const options = {
+	importMeta: import.meta,
 	inferType: true,
 	description: false,
 	hardRejection: false,
 	flags
 };
 
-module.exports = meow(helpText, options);
+export default meow(helpText, options);

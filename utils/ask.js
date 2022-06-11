@@ -1,13 +1,16 @@
-const os = require('os');
-const fs = require('fs');
-const path = require('path');
-const { Input } = require('enquirer');
-const to = require('await-to-js').default;
-const handleError = require('cli-handle-error');
-const shouldCancel = require('cli-should-cancel');
-const { Store } = require('data-store');
+import os from 'os';
+import * as fs from 'fs';
+import enquirer from 'enquirer';
+import path from 'path';
 
-module.exports = async ({ name, message, hint, initial }) => {
+import { to } from 'await-to-js';
+import handleError from 'cli-handle-error';
+import shouldCancel from 'cli-should-cancel';
+import datastore from 'data-store';
+
+const { Input } = enquirer;
+
+export default async ({ name, message, hint, initial }) => {
 	let history = false;
 	if (
 		!initial &&
@@ -17,7 +20,7 @@ module.exports = async ({ name, message, hint, initial }) => {
 	) {
 		history = {
 			autosave: true,
-			store: new Store({
+			store: new datastore({
 				path: path.join(
 					os.homedir(),
 					`.history/create-node-cli/${name}.json`

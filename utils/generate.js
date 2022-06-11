@@ -1,14 +1,24 @@
-const ora = require('ora');
-const path = require('path');
-const execa = require('execa');
-const alert = require('cli-alerts');
-const copy = require('copy-template-dir');
-const { green: g, yellow: y, dim: d } = require('chalk');
+import path from 'path';
+import copy from 'copy-template-dir';
+import alert from 'cli-alerts';
+import chalk from 'chalk';
+// import generateJSON from './generateJSON.js';
+import ora from 'ora';
+import { execa } from 'execa';
+import questions from './questions.js';
+
+const g = chalk.green;
+const d = chalk.dim;
+const y = chalk.yellow;
 
 const spinner = ora({ text: '' });
-const questions = require('./questions');
 
-module.exports = async () => {
+//* __dirname workaround for ESM ----------------------------------
+import * as url from 'url';
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
+//* ---------------------------------------------------------------
+
+export default async () => {
 	const vars = await questions();
 	const outDir = vars.name;
 	const inDirPath = path.join(__dirname, `../template`);
@@ -30,8 +40,8 @@ module.exports = async () => {
 		);
 		process.chdir(outDirPath);
 		const pkgs = [
-			`meow@9.0.0`,
-			`chalk@4.1.2`,
+			`meow@latest`,
+			`chalk@latest`,
 			`cli-alerts@latest`,
 			`cli-welcome@latest`,
 			`cli-meow-help@latest`,
