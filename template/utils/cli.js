@@ -1,29 +1,20 @@
-const meow = require('meow');
-const meowHelp = require('cli-meow-help');
+import meowHelp from 'cli-meow-help';
+import meow from 'meow';
 
 const flags = {
 	clear: {
 		type: `boolean`,
-		default: true,
-		alias: `c`,
-		desc: `Clear the console`
-	},
-	noClear: {
-		type: `boolean`,
 		default: false,
-		desc: `Don't clear the console`
+		shortFlag: `c`,
+		desc: `Clear the console`
 	},
 	debug: {
 		type: `boolean`,
 		default: false,
-		alias: `d`,
+		shortFlag: `d`,
 		desc: `Print debug info`
 	},
-	version: {
-		type: `boolean`,
-		alias: `v`,
-		desc: `Print CLI version`
-	}
+
 };
 
 const commands = {
@@ -31,16 +22,17 @@ const commands = {
 };
 
 const helpText = meowHelp({
-	name: `{{command}}`,
+	name: `calai`,
 	flags,
 	commands
 });
 
 const options = {
+	importMeta: import.meta,
 	inferType: true,
 	description: false,
 	hardRejection: false,
 	flags
 };
 
-module.exports = meow(helpText, options);
+export default meow(helpText, options);

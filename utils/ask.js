@@ -1,13 +1,13 @@
-const os = require('os');
-const fs = require('fs');
-const path = require('path');
-const { Input } = require('enquirer');
-const to = require('await-to-js').default;
-const handleError = require('cli-handle-error');
-const shouldCancel = require('cli-should-cancel');
-const { Store } = require('data-store');
+import handleError from 'cli-handle-error';
+import shouldCancel from 'cli-should-cancel';
+import { Store } from 'data-store';
+import enquirer from 'enquirer';
+import { existsSync } from 'fs';
+import { homedir } from 'os';
+import { join } from 'path';
+const { Input } = enquirer;
 
-module.exports = async ({ name, message, hint, initial }) => {
+export default async ({ name, message, hint, initial }) => {
 	let history = false;
 	if (
 		!initial &&
@@ -18,15 +18,13 @@ module.exports = async ({ name, message, hint, initial }) => {
 		history = {
 			autosave: true,
 			store: new Store({
-				path: path.join(
-					os.homedir(),
-					`.history/create-node-cli/${name}.json`
-				)
+				path: join(homedir(), `.history/create-node-cli/${name}.json`)
 			})
 		};
 	}
-	const [err, response] = await to(
-		new Input({
+
+	try {
+		const response = await new Input({
 			name,
 			message,
 			hint,
@@ -35,7 +33,7 @@ module.exports = async ({ name, message, hint, initial }) => {
 			validate(value, state) {
 				if (state && state.name === `command`) return true;
 				if (state && state.name === `name`) {
-					if (fs.existsSync(value)) {
+					if (existsSync(value)) {
 						return `Directory already exists: ./${value}`;
 					} else {
 						return true;
@@ -45,9 +43,11 @@ module.exports = async ({ name, message, hint, initial }) => {
 			}
 		})
 			.on(`cancel`, () => shouldCancel())
-			.run()
-	);
-	handleError(`INPUT`, err);
+			.run();
 
-	return response;
+		return response;
+	} catch (err) {
+		handleError(`INPUT`, err);
+		return null; // or handle the error as appropriate for your use case
+	}
 };

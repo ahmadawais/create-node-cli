@@ -1,53 +1,67 @@
-const ora = require('ora');
-const path = require('path');
-const execa = require('execa');
-const alert = require('cli-alerts');
-const copy = require('copy-template-dir');
-const { green: g, yellow: y, dim: d } = require('chalk');
+import canPnpm from 'can-pnpm';
+import chalk from 'chalk';
+import alert from 'cli-alerts';
+import copy from 'copy-template-dir';
+import { execa } from 'execa';
+import ora from 'ora';
+import { basename, dirname, join } from 'path';
+import { fileURLToPath } from 'url';
+import questions from './questions.js';
 
 const spinner = ora({ text: '' });
-const questions = require('./questions');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
-module.exports = async () => {
+export default async () => {
 	const vars = await questions();
 	const outDir = vars.name;
-	const inDirPath = path.join(__dirname, `../template`);
-	const outDirPath = path.join(process.cwd(), outDir);
+	const inDirPath = join(__dirname, `../template`);
+	const outDirPath = join(process.cwd(), outDir);
+
+	const { canPnpm: isPnpmAvailable } = await canPnpm();
+	const pm = isPnpmAvailable ? 'pnpm' : 'npm';
 
 	copy(inDirPath, outDirPath, vars, async (err, createdFiles) => {
 		if (err) throw err;
 
-		console.log(d(`\nCreating files in ${g(`./${outDir}`)} directory:\n`));
+		console.log(
+			chalk.dim(
+				`\nCreating files in ${chalk.green(`./${outDir}`)} directory:\n`
+			)
+		);
 
 		createdFiles.forEach(filePath => {
-			const fileName = path.basename(filePath);
-			console.log(`${g(`CREATED`)} ${fileName}`);
+			const fileName = basename(filePath);
+			console.log(`${chalk.green(`CREATED`)} ${fileName}`);
 		});
 
 		console.log();
 		spinner.start(
-			`${y(`DEPENDENCIES`)} installing…\n\n${d(`It may take moment…`)}`
+			`${chalk.yellow(`DEPENDENCIES`)} installing…\n\n${chalk.dim(
+				`It may take moment…`
+			)}`
 		);
 		process.chdir(outDirPath);
 		const pkgs = [
-			`meow@9.0.0`,
-			`chalk@4.1.2`,
+			`meow@latest`,
+			`chalk@latest`,
 			`cli-alerts@latest`,
 			`cli-welcome@latest`,
 			`cli-meow-help@latest`,
 			`cli-handle-error@latest`,
-			`cli-handle-unhandled@latest`
+			`cli-handle-unhandled@latest`,
+			`get-package-json-file@latest`
 		];
 
-		await execa(`npm`, [`install`, ...pkgs]);
-		await execa(`npm`, [`install`, `prettier`, `-D`]);
-		await execa(`npm`, [`dedupe`]);
-		spinner.succeed(`${g(`DEPENDENCIES`)} installed!`);
+		await execa(pm, [`install`, ...pkgs]);
+		await execa(pm, [`install`, `prettier`, `-D`]);
+		await execa(pm, [`dedupe`]);
+		spinner.succeed(`${chalk.green(`DEPENDENCIES`)} installed!`);
 
 		alert({
 			type: `success`,
 			name: `ALL DONE`,
-			msg: `\n\n${createdFiles.length} files created in ${d(
+			msg: `\n\n${createdFiles.length} files created in ${chalk.dim(
 				`./${outDir}`
 			)} directory`
 		});
