@@ -79,7 +79,7 @@ help  Print help info
 #### OPTIONS
 
 ```sh
--c, --clear    Clear the console Default: true
+-c, --clear    Clear the console Default: false
 -d, --debug    Print debug info Default: false
 -v, --version  Print CLI version Default: false
 ```
